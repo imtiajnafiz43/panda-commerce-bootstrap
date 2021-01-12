@@ -1,0 +1,65 @@
+.panda-card{
+    border: 0;
+}
+.panda-card-footer{
+    border: 0;
+    background-color: white;
+}
+.catagories img{
+    width: 100px;
+}
+.panda-slide .carousel-item{
+    background-color: #fceae8;
+    border-radius: 2em;
+}
+#contact:hover{
+    background-image: linear-gradient(180deg, rgb(90, 213, 238),rgb(19, 23, 231));
+}
+.discount{
+    display: none;
+}
+.fll{
+    overflow: hidden;
+}
+.col:hover .discount{
+    color: red;
+    display: block;
+    text-align: center;
+    animation: slidein 3s ease-in-out 1s infinite alternate ;
+    border-radius: 5px; 
+    
+}
+@keyframes slidein{
+    0%{
+        background-color: yellow;
+        transform: scale(1);
+    }
+    10%{
+        background-color: thistle;
+    }
+    20%{
+        background-color:whitesmoke;
+        transform: scale(1.3);
+    }
+    30%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: yellowgreen;
+        transform: scale(1);
+    }
+    65%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: thistle;
+        transform: scale(1.5);
+    }
+    85%{
+        background-color: lightgoldenrodyellow;
+    }
+    100%{
+        background-color: whitesmoke;
+        transform: scale(1);
+    }
+}
